@@ -1,0 +1,49 @@
+.image-card {
+    margin: 10px 5px;
+    padding: 10px 10px 60px;
+    background-color: #edf5e1;
+    position: relative;
+    border-radius: 3px;
+}
+
+/* Responsive image */
+.image-card > img {
+    width: 100%;
+    height: auto;
+}
+
+/* Hover controls */
+.image-card > .controls {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Center icon */
+.controls > .edit-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Top right icon */
+.controls > .close-button {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: red;
+    font-size: 30px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
