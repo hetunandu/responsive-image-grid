@@ -1,4 +1,3 @@
-## Fynd Assignment
 
 #### How to run:
 ```
